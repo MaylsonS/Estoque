@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/criar_conta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Criar Conta</title>
+
+</head>
+<body>
+    <main id="container">
+        <form action="" id="login_form">
+            <div id="form_header">
+                <h1>Criar</h1> <h1>Conta</h1>
+                <div class="icons">
+                    <a href='#'>🍌</a>
+                    <i class="fa-solid fa-moon" id="mode-icon"></i>
+                </div>
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Nome
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="input-box">
+                    <label for="text">
+                        Email
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">
+                        Senha
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                    </label>
+                </div>
+
+               
+
+                <div id="links">
+                    <div id="esquecer_senha">
+                        <a href="/template/login.html">
+                            Login
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" id="login_button">Criar</button>
+        </form>
+    </main>
+    
+<script src="/static/js/login.js"></script>
+</body>
+</html>
